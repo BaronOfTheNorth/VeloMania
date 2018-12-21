@@ -169,7 +169,7 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
-    <Content Include="Bookings.aspx" />
+    <Content Include="Events\Bookings.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -177,7 +177,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
-    <Content Include="Events.aspx" />
+    <Content Include="Events\Events.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -190,6 +190,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Account\Web.config" />
+    <None Include="Properties\PublishProfiles\VeloMania - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -219,7 +220,7 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
-    <Content Include="Shop.aspx" />
+    <Content Include="Shop\Shop.aspx" />
     <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -343,11 +344,11 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Bookings.aspx.cs">
+    <Compile Include="Events\Bookings.aspx.cs">
       <DependentUpon>Bookings.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Bookings.aspx.designer.cs">
+    <Compile Include="Events\Bookings.aspx.designer.cs">
       <DependentUpon>Bookings.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
@@ -364,11 +365,11 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Events.aspx.cs">
+    <Compile Include="Events\Events.aspx.cs">
       <DependentUpon>Events.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Events.aspx.designer.cs">
+    <Compile Include="Events\Events.aspx.designer.cs">
       <DependentUpon>Events.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
@@ -376,11 +377,11 @@
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Shop.aspx.cs">
+    <Compile Include="Shop\Shop.aspx.cs">
       <DependentUpon>Shop.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Shop.aspx.designer.cs">
+    <Compile Include="Shop\Shop.aspx.designer.cs">
       <DependentUpon>Shop.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
